@@ -1,0 +1,95 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+
+    text-align: center;
+    border-style:inset;
+    background-color: burlywood;
+}
+
+h2{
+    text-decoration: underline;
+    color: saddlebrown
+}
+
+p{
+    color: saddlebrown
+}
+
+.personne{
+    text-align: center;
+    font-style: inherit;
+    font-family: sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.menu li a{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: blanchedalmond;
+    display: block;
+    padding: 10px 20px;
+}
+
+.menu li a:link, .menu li a:visited{
+    display: block;
+    color: bisque;
+    background-color: brown;
+    padding: 6px 6px;
+   
+} 
+
+.menu li a:hover{background-color: salmon;}
+.menu li:active {background-color: salmon;}
+
+.puiss{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px solid sienna;
+}
+
+pre{
+    border-style: dashed;
+    border-radius: 25px;
+    padding:10px;
+    display:block;
+    color:brown;
+    background-color: sandybrown;
+
+}
+
+.minimax{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.video{
+   font-weight: bolder;
+}
+
+.alignements img{
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+
